@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+*.log
+*.sql
+*.sql.gz
+*.dump
+*.zip
+*.tar
+*.tar.gz
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.DS_Store
+Thumbs.db
