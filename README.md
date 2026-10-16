@@ -9,7 +9,6 @@ AI assistance into one coherent engineering system.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-7-DC382D?logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
-![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
 | | |
 | --- | --- |
@@ -22,6 +21,14 @@ AI assistance into one coherent engineering system.
 > This is the public engineering showcase for Qivro. Product source
 > repositories are reviewed and released independently; this repository does
 > not duplicate private source code or deployment secrets.
+
+## Quick Review for Recruiters
+
+- **See the product:** [Real local screenshots](#product-evidence) of search, property details, and the owner dashboard.
+- **Understand the engineering:** [Service architecture](#system-architecture) and [delivery flow](#delivery-flow).
+- **Check current scope:** [Implementation status](docs/PROJECT_STATUS.md) separates implemented and planned/provider-dependent features.
+- **Understand source availability:** This is a public evidence/documentation repository, not the complete runnable source. The private service repositories require separate review before release. See the [public-release checklist](docs/PUBLIC_RELEASE_CHECKLIST.md).
+- **Live demo:** Not publicly available. Do not interpret architecture diagrams or the delivery-flow illustration as proof of a running production deployment.
 
 ## Product Evidence
 
