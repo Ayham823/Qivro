@@ -30,7 +30,7 @@ AI assistance into one coherent engineering system.
 - **Understand source availability:** This is a public evidence/documentation repository, not the complete runnable source. The private service repositories require separate review before release. See the [public-release checklist](docs/PUBLIC_RELEASE_CHECKLIST.md).
 - **Live demo:** Not publicly available. Do not interpret architecture diagrams or the delivery-flow illustration as proof of a running production deployment.
 
-## Product Evidence
+## October 2026 development\n\nRecent local work covers map discovery, owner insights, shared-living workflows, privacy/consent contracts, and native-client API alignment. See the [October development update](docs/DEVELOPMENT_UPDATE_2026_10.md) for scope and verification boundaries.\n\n## Product Evidence
 
 The images below are real captures from the local Qivro environment using
 deterministic seed users and properties. They contain no production or customer

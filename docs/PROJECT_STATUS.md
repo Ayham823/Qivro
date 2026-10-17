@@ -22,7 +22,7 @@ connected capabilities.
 | Managed AWS services | Planned progression | No live inventory is claimed from repository documentation |
 | Native iOS product | Early foundation | Not presented as a finished application |
 
-## Terminology
+## October 2026 source update\n\nNew local source areas include map clustering and building links, owner insights, shared-living and household workflows, privacy/consent contracts, and native marketplace-read adapters. These remain development work pending coordinated review and release acceptance. See the [development update](DEVELOPMENT_UPDATE_2026_10.md); the existing status rows above do not imply full production coverage.\n\n## Terminology
 
 - **Implemented locally** means the behavior exists and has been exercised in
   the local Qivro environment.
