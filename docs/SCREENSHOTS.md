@@ -10,7 +10,8 @@ Qivro environment.
 - Do not expose tokens, environment files, provider dashboards, private URLs,
   browser extensions, personal messages, or operating-system notifications.
 - Keep screenshots at a consistent desktop viewport for the main README.
-- Capture mobile and RTL evidence separately when it adds engineering value.
+- Use the English interface for published screenshots and demo videos.
+- Capture mobile evidence separately when it adds engineering value.
 - Replace a screenshot when it no longer matches the current implementation.
 
 ## Current Set

@@ -11,18 +11,7 @@
       "path": "assets/demo/properties-en.png",
       "sha256": "32da7595a7b9152d81ecf60ac2a54c676b88b98629c12cbd697d32ac830afb95",
       "attempt": "first"
-    },
-    {
-      "locale": "ar",
-      "path": "assets/demo/properties-ar.png",
-      "sha256": "2654b492ccc2ba40bff3209067b1b6da8faa47ecdc16311db4515d95499a1539",
-      "attempt": "first"
-    },
-    {
-      "locale": "he",
-      "path": "assets/demo/properties-he.png",
-      "sha256": "c3ad7c35f8512d479c1fe744245a0dd02e699babd026f6be4d983998aad5a97a",
-      "attempt": "retry1"
     }
-  ]
+  ],
+  "display_language": "English"
 }

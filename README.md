@@ -1,6 +1,6 @@
 # Qivro
 
-Qivro is a multilingual, multi-service real-estate platform that brings
+Qivro is a multi-service real-estate platform that brings
 property discovery, owner workflows, communication, operations, and controlled
 AI assistance into one coherent engineering system.
 
@@ -14,7 +14,7 @@ AI assistance into one coherent engineering system.
 | --- | --- |
 | **Status** | Active personal/student engineering project |
 | **Live demo** | Not publicly deployed yet |
-| **Languages** | English, Arabic, and Hebrew with RTL support |
+| **Interface preview** | English |
 | **Architecture** | Independent services coordinated through Docker Compose |
 | **Public repository scope** | Documentation and verified product evidence |
 
@@ -34,14 +34,14 @@ AI assistance into one coherent engineering system.
 
 Recent local work covers map discovery, owner insights, shared-living workflows, privacy/consent contracts, and native-client API alignment. See the [October development update](docs/DEVELOPMENT_UPDATE_2026_10.md) for scope and verification boundaries.
 
-## Current multilingual UI captures
+## Current UI capture
 
-[View the English, Arabic and Hebrew demonstration](docs/DEMO_2026_10_19.md), captured from the running frontend on October 19, 2026 with isolated synthetic API data.
+[View the English demonstration](docs/DEMO_2026_10_19.md), captured from the running frontend on October 19, 2026 with isolated synthetic API data.
 
 <details>
-<summary>Preview the current Arabic search interface</summary>
+<summary>Preview the current English search interface</summary>
 
-![Qivro Arabic search with synthetic test inventory](assets/demo/properties-ar.png)
+![Qivro English search with synthetic test inventory](assets/demo/properties-en.png)
 
 </details>
 
@@ -69,7 +69,7 @@ data.
   viewing appointments.
 - Operators use a separate administration application for moderation, audit,
   analytics, experiments, translations, ranking, and AI review.
-- Backend-controlled AI workflows support multilingual search parsing,
+- Backend-controlled AI workflows support search parsing,
   property assistance, content generation, ranking, and translation contracts.
 
 The Backend remains authoritative for authentication, authorization,
@@ -122,7 +122,6 @@ current environment.
 - Property search, filters, map-aware results, details, favorites, and saved searches
 - Property creation, editing, draft, validation, preview, and ownership-aware actions
 - Leads, viewings, messaging, notifications, and account preferences
-- English, Arabic, and Hebrew route localization with RTL layout support
 - Responsive loading, empty, error, retry, offline, and session-expiry states
 
 ### Backend and Data
@@ -137,7 +136,7 @@ current environment.
 
 - FastAPI service with health, contract tests, request IDs, and structured logs
 - Mock, OpenAI, and Gemini text-provider abstractions configured through the environment
-- Multilingual search and chat contracts for English, Arabic, and Hebrew
+- Structured search and chat contracts
 - Guardrails that preserve property facts such as price, rooms, area, and address meaning
 - Provider-dependent features remain explicit rather than being presented as live
 
@@ -176,7 +175,6 @@ not automatically reverse a schema migration.
 
 - Core customer and owner property workflows
 - Admin operations foundation
-- Multilingual routes, formatting, RTL, and localized system content
 - Backend API, PostgreSQL, Redis, queues, and worker boundaries
 - AI provider abstraction with deterministic mock behavior
 - Docker-based local environment, checks, migrations, and smoke tooling
