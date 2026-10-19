@@ -1,0 +1,28 @@
+{
+  "captured_on": "2026-10-19",
+  "source_commit": "9a82fb85c8914d53b43d57a2ddd6be5e1e19bbf1",
+  "workflow_run": 39265544832,
+  "artifact": "frontend-ui-smoke-desktop",
+  "artifact_sha256": "c4cb599adb30349e6698abb9a23a2772ca681a23d7b895670a40cd6acbb2b845",
+  "scope": "Real frontend rendering with isolated synthetic API fixtures; no production/customer data or live model inference",
+  "captures": [
+    {
+      "locale": "en",
+      "path": "assets/demo/properties-en.png",
+      "sha256": "32da7595a7b9152d81ecf60ac2a54c676b88b98629c12cbd697d32ac830afb95",
+      "attempt": "first"
+    },
+    {
+      "locale": "ar",
+      "path": "assets/demo/properties-ar.png",
+      "sha256": "2654b492ccc2ba40bff3209067b1b6da8faa47ecdc16311db4515d95499a1539",
+      "attempt": "first"
+    },
+    {
+      "locale": "he",
+      "path": "assets/demo/properties-he.png",
+      "sha256": "c3ad7c35f8512d479c1fe744245a0dd02e699babd026f6be4d983998aad5a97a",
+      "attempt": "retry1"
+    }
+  ]
+}
