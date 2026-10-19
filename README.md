@@ -30,7 +30,22 @@ AI assistance into one coherent engineering system.
 - **Understand source availability:** This is a public evidence/documentation repository, not the complete runnable source. The private service repositories require separate review before release. See the [public-release checklist](docs/PUBLIC_RELEASE_CHECKLIST.md).
 - **Live demo:** Not publicly available. Do not interpret architecture diagrams or the delivery-flow illustration as proof of a running production deployment.
 
-## October 2026 development\n\nRecent local work covers map discovery, owner insights, shared-living workflows, privacy/consent contracts, and native-client API alignment. See the [October development update](docs/DEVELOPMENT_UPDATE_2026_10.md) for scope and verification boundaries.\n\n## Product Evidence
+## October 2026 development
+
+Recent local work covers map discovery, owner insights, shared-living workflows, privacy/consent contracts, and native-client API alignment. See the [October development update](docs/DEVELOPMENT_UPDATE_2026_10.md) for scope and verification boundaries.
+
+## Current multilingual UI captures
+
+[View the English, Arabic and Hebrew demonstration](docs/DEMO_2026_10_19.md), captured from the running frontend on October 19, 2026 with isolated synthetic API data.
+
+<details>
+<summary>Preview the current Arabic search interface</summary>
+
+![Qivro Arabic search with synthetic test inventory](assets/demo/properties-ar.png)
+
+</details>
+
+## Product Evidence
 
 The images below are real captures from the local Qivro environment using
 deterministic seed users and properties. They contain no production or customer
@@ -135,6 +150,8 @@ current environment.
 - GitHub Actions validation and container-image build workflows
 
 ## Delivery Flow
+
+Automatic pushes and pull requests validate the frontend, backend and AI images without publishing them. Publishing requires an explicit manual input and environment configuration. The release illustration below describes the coordinated delivery stages; it is not an automatic production deployment from a pull request.
 
 ```mermaid
 flowchart LR
