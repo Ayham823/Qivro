@@ -13,7 +13,7 @@ connected capabilities.
 | Admin operations console | Foundation implemented | Moderation, analytics, audit, review, and system views |
 | PostgreSQL and Prisma | Implemented locally | Schema, migrations, seeds, and backup/restore contracts |
 | Redis and BullMQ | Implemented locally | Cache, limits, queues, and worker contracts |
-| Multilingual product | Implemented locally | English, Arabic, Hebrew, RTL, formatting, and SEO foundations |
+| Interface formatting and SEO | Implemented locally | Route, formatting, and SEO foundations; public captures use English |
 | AI provider boundary | Implemented locally | Mock plus configurable external text-provider adapters |
 | Production AI providers | Provider-dependent | Requires approved accounts, keys, budgets, and monitoring |
 | Payments | In development | Production provider and full webhook lifecycle not claimed |
