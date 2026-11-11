@@ -112,7 +112,7 @@ current environment.
 | Domain API | Business rules, auth, data, messaging, jobs | NestJS, Prisma, PostgreSQL, Redis | Source under review |
 | AI service | Search parsing, chat contracts, ranking, translation | FastAPI, Pydantic, provider adapters | Private security review |
 | Infrastructure | Compose, Nginx, migrations, smoke, backup, rollback | Docker, Bash, GitHub Actions | Private security review |
-| Admin console | Moderation, audit, analytics and review workflows | Next.js, React, TypeScript | Private source |
+| Admin console | Moderation, audit, analytics and review workflows | Next.js, React, TypeScript | Separate repository; visibility change pending |
 | Native client | iOS application foundation | Swift / SwiftUI | Early foundation |
 
 ## Implemented Engineering Areas
